@@ -1,0 +1,25 @@
+.box {
+  background: goldenrod;
+  width: 300px;
+  height: 300px;
+  margin: 30px auto;
+  transition: all 2s linear;
+  display: block;
+  opacity: 1;
+}
+button {
+  margin-left: 200px;
+}
+/* .hidden {
+  display: none;
+  opacity: 0;
+} */
+
+.hidden {
+    display: none;
+  }
+
+.visuallyhidden {
+    opacity: 0;
+    transition: all 2s linear;
+}
